@@ -1,0 +1,9 @@
+.logo-container{
+	margin:3.33rem 0 2rem;
+	text-align:center;
+}
+.logo-container img{
+	width: 300px;
+	height:200px;
+	border-radius: 100px
+}
