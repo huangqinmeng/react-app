@@ -9,7 +9,7 @@ mongoose.connect(DB_URL)
 mongoose.connection.on('connected',function(err,db){
 	console.log('mongo success')
 })
-// import User from e.model('user')
+
 const models={
 	user:{
 		user:{type:String,require:true},
